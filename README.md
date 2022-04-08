@@ -14,3 +14,7 @@ The roadmap will be helpul for:
 * iOS developers who are preparing for interviews and need to brush up knowledge
 * iOS developers of the trainee|junior|middle level who want to understand where to move on
 * iOS developers who need to compile own set of interview questions
+
+# ❓Why these topics?
+
+See this article explaining selection of topics.
