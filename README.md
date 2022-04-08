@@ -20,4 +20,4 @@ The roadmap will be helpul for:
 See [this article](https://medium.com/ios-os-x-development/ios-developer-roadmap-c9a24f413457) explaining selection of topics.
 
 # 👨‍🎓 Materials:
-- [Articles](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Data%20type.md)
+- [Articles](https://github.com/SomeStay07/iOS-Developer-Roadmap/edit/main/Articles.md)
