@@ -1,7 +1,9 @@
-1. First item.
-   - Item 1
-   - Item 2
-   - Item 3
+1. Управление памятью.
+   - Типы данных
+   - ARC
+   - MRC
+   - Shallow и deep copying
+   - Autorelease pool
 1. Second item.
    - Nested item 1
       - Further nested item 1
