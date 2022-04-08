@@ -1,5 +1,5 @@
 1. Управление памятью.
-   - [📝Типы данных] (https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Data%20type.md)
+   - [📝Типы данных](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Data%20type.md)
    - ARC
    - MRC
    - Shallow и deep copying
