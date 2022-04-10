@@ -3,7 +3,7 @@
    - ARC
    - MRC
    - [🔐Shallow and deep copying](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Shallow%20and%20deep%20copying.md)
-   - [Copy on write]()
+   - [⚙️Copy on write]()
    - Autorelease pool
 1. Second item.
    - Nested item 1
