@@ -2,7 +2,7 @@
    - [📝Типы данных](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Data%20type.md)
    - ARC
    - MRC
-   - Shallow и deep copying
+   - Shallow and deep copying
    - Autorelease pool
 1. Second item.
    - Nested item 1
