@@ -6,10 +6,10 @@
    - [⚙️Copy on write](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/copy%20on%20write.md)
    - Autorelease pool
    - [🎋Hashable](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Hashable.md)
-1. Second item.
+1. Многопоточность.
    - Nested item 1
       - Further nested item 1
       - Further nested item 2
       - Further nested item 3
    - Nested item 2
-   - Nested item 3
+   - [🛡Акторы]()
