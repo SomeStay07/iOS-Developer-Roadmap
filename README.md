@@ -1,23 +1,24 @@
-# 👨‍💻 iOS Developer Roadmap
+# 👨‍💻 Карта развития для iOS разработчика
 
-Roadmap to becoming an iOS developer in 2022.
+Здесь будут материалы, которые позволят с 0 стать `junior` iOS разработчиком, или же проапгрейдиться с `junior` уровня до `middle` уровня.
 
-# 🤔 What is it?
+# 🤔 Что это?
+
+Это древовидная компиляция тем, которые касаются разработки под iOS.
 
 This is a tree-like compilation of topics highly relevant to iOS development. Both image and text version are generated from human readable content file.
 
-# 👀 Who is it for?
+# 👀 Для кого это?
 
-The roadmap will be helpul for:
+Эти материалы будут полезны для:
+* Для любого, кто захочет стать iOS разработчиком
+* Для iOS разработчиков, которые готовятся к собеседованию
+* Для iOS разработчиков, которые находятся на уровне trainee|junior|middle и хотят понять куда им двигаться и что изучать
+* Для iOS разработчиков, которым нужно составить вопросы для собеседования
 
-* anyone who wants to become an iOS developer
-* iOS developers who are preparing for interviews and need to brush up knowledge
-* iOS developers of the trainee|junior|middle level who want to understand where to move on
-* iOS developers who need to compile own set of interview questions
-
-# ❓Why these topics?
+# ❓Почему именно эти темы?
 
 See [this article](https://medium.com/ios-os-x-development/ios-developer-roadmap-c9a24f413457) explaining selection of topics.
 
-# 👨‍🎓 Materials:
-- [Articles](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Articles.md)
+# 👨‍🎓 Материалы:
+- [Статьи](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Articles.md)
