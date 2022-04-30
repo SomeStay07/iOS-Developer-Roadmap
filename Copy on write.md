@@ -16,7 +16,7 @@
 ![image](https://i.yapx.ru/Ro2j1.png)
 #
 Реализация COW своими руками:
-![image](https://i.yapx.ru/Ro2u5.png)
+![image](https://user-images.githubusercontent.com/47610132/166120019-0bd2f65a-9a4b-477d-bf60-3c49b2cffaa7.png)
 
 # **Полезные ссылки**
 - [Apple docs](https://github.com/apple/swift/blob/main/docs/OptimizationTips.rst#id28)
