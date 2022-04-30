@@ -13,7 +13,8 @@
 
 #
 Пример:
-![image](https://i.yapx.ru/Ro2j1.png)
+![image](https://user-images.githubusercontent.com/47610132/166120669-f0f1694b-b61f-4a96-8212-d211f3f414ea.png)
+
 #
 Реализация COW своими руками:
 ![image](https://user-images.githubusercontent.com/47610132/166120019-0bd2f65a-9a4b-477d-bf60-3c49b2cffaa7.png)
