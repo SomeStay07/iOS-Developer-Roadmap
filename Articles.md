@@ -6,7 +6,9 @@
    - [⚙️Copy on write](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Copy%20on%20write.md)
    - Autorelease pool
    - [🎋Hashable](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Hashable.md)
-1. Многопоточность.
+1. Swift
+   - [❤️App & View Controller жизненный цикл.]()
+3. Многопоточность.
    - Nested item 1
       - Further nested item 1
       - Further nested item 2
