@@ -85,4 +85,4 @@
 #
 **Дополнительный материал:**
   - https://swiftrocks.com/how-hashable-works-in-swift
-  - [книга](https://cryptobook.nakov.com)
+  - [Practical cryptography for developers](https://cryptobook.nakov.com)
