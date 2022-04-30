@@ -107,6 +107,6 @@ Task {
 Так работает **MainActor** - актор, у которого **Executor** переводит в главный поток, где создать его нельзя, но можно обратиться к его экземпляру **MainActor.shared**.
 
 # Дополнительные материалы:
-  - [Swift concurrency](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html)
-  - [Акторы Swift под капотом](https://habr.com/ru/company/otus/blog/588540/)
   - [Документация от Apple](https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md)
+  - [WWDC21, Protect mutable state with Swift actors](https://developer.apple.com/videos/play/wwdc2021/10133/)
+  - [Акторы Swift под капотом](http://swiftrocks.com/how-actors-work-internally-in-swift)
