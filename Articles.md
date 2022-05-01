@@ -16,6 +16,10 @@
       - Further nested item 3
    - [🔑Run Loop](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Run%20loops.md)
    - [🛡Акторы](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Actors.md)
-4. Принципы разработки
+4. Структуры данных:
+   - [🥒Массивы]()
+   - [🥔Множества]()
+   - [🌶Словари]()
+6. Принципы разработки
    - [👝Protocol Oriented Programming](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Protocol%20Oriented%20Programming.md)
-   - [SOLID]()
+   - [🎡SOLID]()
