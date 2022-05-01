@@ -136,3 +136,4 @@ func foo<T>(value: T) { ... }
 
 # Дополнительные материалы:
 [WWDC16, Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015/408/)
+[Protocol-Oriented Programming, реализация](https://www.raywenderlich.com/6742901-protocol-oriented-programming-tutorial-in-swift-5-1-getting-started)
