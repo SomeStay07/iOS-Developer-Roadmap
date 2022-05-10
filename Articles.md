@@ -22,4 +22,4 @@
    - [🌶Словари]()
 6. Принципы разработки
    - [👝Protocol Oriented Programming](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Protocol%20Oriented%20Programming.md)
-   - [🎡SOLID]()
+   - [🎡SOLID](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Solid.md)
