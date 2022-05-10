@@ -53,4 +53,5 @@ Run Loop поддерживает 2 типа событий:
 # Дополнительные материалы:
 1. [Документация от Apple](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html)
 2. [RunLoop.main vs DispatchQueue.main: The differences explained](https://www.avanderlee.com/combine/runloop-main-vs-dispatchqueue-main/)
-3. [Пример использования autoreleasepool в Swift](https://proswift.ru/pamyat-i-autoreleasepool-dlya-ciklov/)
+3. [RunLoop на главном потоке / Антон Сергеев](https://www.youtube.com/watch?v=s8B6t5XnB7M)
+4. [Пример использования autoreleasepool в Swift](https://proswift.ru/pamyat-i-autoreleasepool-dlya-ciklov/)
