@@ -1,6 +1,7 @@
 1. 🎋 Swift:
    - 💚 junior | [App & View Controller жизненный цикл.](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/App%20and%20view%20controller%20lifecycle.md)
    - 💚 junior | [Замыкания]()
+   - 💚 junior | [Что такое optional, для чего он нужен и как его использовать](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Optional.md)
    - 💚 junior | [Optional Chaining](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Optional%20Chaining.md)
 2. 📝 Управление памятью:
    - 💚 junior | [Типы данных](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Data%20type.md)
