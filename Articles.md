@@ -15,7 +15,7 @@
    - 🧡 middle | [Run Loop](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Run%20loops.md)
    - 🤎 middle+| [Акторы](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Actors.md)
 4. 🌶 Структуры данных:
-   - 💚 junior | [Массивы]()
+   - 💚 junior | [Массивы](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/Arrays.md)
    - 💚 junior | [Множества]()
    - 💚 junior | [Словари]()
 5. 🐼 Принципы разработки:
