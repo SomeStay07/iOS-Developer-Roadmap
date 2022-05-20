@@ -91,7 +91,100 @@ stringArray.reserveCapacity(128)
 
 ![image](https://user-images.githubusercontent.com/47610132/168491933-cb4cfbfe-07fd-434d-a292-99fddba40418.png)
 
-`ContiguousArray<T>` хранится «непрерывно», как показано на рисунке выше.
+`ContiguousArray<T>` - хранится «непрерывно», как показано на рисунке выше, реализация как и `Array`, но без части, которая лениво обрабатывает `NSArray`.
+
+Сравнение **Array** и **ContiguousArray**, так же **lazy Array** и **lazy ContiguousArray**:
+
+```
+import Foundation
+
+protocol Possibles {
+    init(repeating: Bool, count: Int)
+    subscript(index: Int) -> Bool { get set }
+    var count: Int { get }
+}
+extension Array: Possibles where Element == Bool {}
+extension ContiguousArray: Possibles where Element == Bool {}
+
+func lazySieveOfEratosthenes<Storage: Possibles>(makeStorage: () -> Storage) -> [Int] {
+    var possibles = makeStorage()
+    let limit = possibles.count - 1
+    return (2 ... limit).lazy.filter { i in // Lazy, so that `possibles` is updated before it is used.
+        possibles[i]
+    }.map { i in
+        stride(from: i * i, through: limit, by: i).lazy.forEach { j in
+            possibles[j] = false
+        }
+        return i
+    }.reduce(into: [Int]()) { (result, next) in
+        result.append(next)
+    }
+}
+
+func forSieveOfEratosthenes<Storage: Possibles>(makeStorage: () -> Storage) -> [Int] {
+    var possibles = makeStorage()
+        let limit = possibles.count - 1
+        var result = [Int]()
+        for i in 2 ... limit where possibles[i] {
+            var j = i * i
+            while j <= limit {
+                possibles[j] = false
+                j += i
+            }
+            result.append(i)
+        }
+        return result
+}
+
+func test(_ name: String, _ storageType: String, _ function: (Int) -> [Int]) {
+    let start = Date()
+    let result = function(100_000)
+    let end = Date()
+    print("\(name) \(storageType) biggest: \(result.last ?? 0) time: \(end.timeIntervalSince(start))")
+}
+test("for   ", "Array          ") { limit in
+    forSieveOfEratosthenes {
+        Array(repeating: true, count: limit + 1)
+    }
+}
+test("for   ", "ContiguousArray") { limit in
+    forSieveOfEratosthenes {
+        ContiguousArray(repeating: true, count: limit + 1)
+    }
+}
+test("lazy  ", "Array          ") { limit in
+    lazySieveOfEratosthenes {
+        Array(repeating: true, count: limit + 1)
+    }
+}
+test("lazy  ", "ContiguousArray") { limit in
+    lazySieveOfEratosthenes {
+        ContiguousArray(repeating: true, count: limit + 1)
+    }
+}
+```
+Результат:
+```
+for    Array           biggest: 99991 time: 41.016937017440796
+for    ContiguousArray biggest: 99991 time: 40.648478984832764
+lazy   Array           biggest: 99991 time: 3.3549970388412476
+lazy   ContiguousArray biggest: 99991 time: 3.5851539373397827
+```
+Еще один прогон и результат:
+```
+for    Array           biggest: 99991 time: 41.801795959472656
+for    ContiguousArray biggest: 99991 time: 42.37710893154144
+lazy   Array           biggest: 99991 time: 3.438219904899597
+lazy   ContiguousArray biggest: 99991 time: 3.4085270166397095
+```
+Как видно, не всегда `Array` медленнее, чем `ContiguousArray`
+> Прогон проходил на такой спеке:
+  - macOS Monterey (Version 12.3)
+  - Processor 2.3 GHz 8-Core Intel core i9
+  - Memory 16 GB DDR4
+  - Xcode Version 13.3.1 (13E500a), Playground
+
+Пример кода взят [отсюда](https://forums.swift.org/t/execution-time-contiguousarray-vs-array/12467/21), советую ознакомиться со всем тредом)
 
 # Изменение копий массивов
 
@@ -101,3 +194,4 @@ stringArray.reserveCapacity(128)
 
 # Дополнительные ресурсы:
  - [Описание сложности алгоритмов в swift](https://github.com/raywenderlich/swift-algorithm-club/blob/master/Big-O%20Notation.markdown)
+ - [ContiguousArray](https://swiftdoc.org/v5.1/type/contiguousarray/)
