@@ -9,40 +9,6 @@
   - `_ArrayBuffer<T>` - реализация copy on write.
   - `Array<T>` - публичный интерфейс массива.
 
-Операции с массивом и их сложность:
-  - `O(1) — Константное время(самое быстрое)` Доступ к элементу в массиве по его индексу:
-```
-let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-array[3]
-```
-  - `O(log n) - Логарифмическое время(немного по-хуже, чем константное время)` Сортировка по возрастанию, стандартная функция:
-```
-var people = ["Sandra", "Mike", "James", "Donald"]
-people.sort()
-```
-  - `O(n) - Линейное время(немного по-хуже, чем логарифмическая сложность)` Подсчёт суммы элементов, при помощи стандартной функции `forEach` или же for i in array:
-```
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-var sumOfNumbers = 0
-
-numbers.forEach {
-    sumOfNumbers += $0
-}
-
-print(sumOfNumbers) // 55
-```
-  - `O(n²) - Квадратичное время(немного по-хуже, чем O(n log n)` Прохождение по 2D массиву:
-```
-var twoDimensionalArray = [["first one", "second one"], ["first two", "second two"], ["first third", "second third"]]
-
-for i in 0..<twoDimensionalArray.count {
-    for n in 0..<twoDimensionalArray[i].count {
-        print(twoDimensionalArray[i][n])
-    }
-}
-```
-
 # Размерность массива
 Каждый массив резервирует определенный объем памяти для хранения его содержимого. 
 Когда вы добавляете элементы в массив и этот массив начинает превышать свою зарезервированную емкость, массив выделяет большую область памяти 
@@ -224,6 +190,40 @@ firstArray[0] = MyClass()
 
 print(firstArray[0].name) // "Name"
 print(secondArray[0].name) // "Another name
+```
+
+Операции с массивом и их сложность:
+  - `O(1) — Константное время(самое быстрое)` Доступ к элементу в массиве по его индексу:
+```
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+array[3]
+```
+  - `O(log n) - Логарифмическое время(немного по-хуже, чем константное время)` Сортировка по возрастанию, стандартная функция:
+```
+var people = ["Sandra", "Mike", "James", "Donald"]
+people.sort()
+```
+  - `O(n) - Линейное время(немного по-хуже, чем логарифмическая сложность)` Подсчёт суммы элементов, при помощи стандартной функции `forEach` или же for i in array:
+```
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+var sumOfNumbers = 0
+
+numbers.forEach {
+    sumOfNumbers += $0
+}
+
+print(sumOfNumbers) // 55
+```
+  - `O(n²) - Квадратичное время(немного по-хуже, чем O(n log n)` Прохождение по 2D массиву:
+```
+var twoDimensionalArray = [["first one", "second one"], ["first two", "second two"], ["first third", "second third"]]
+
+for i in 0..<twoDimensionalArray.count {
+    for n in 0..<twoDimensionalArray[i].count {
+        print(twoDimensionalArray[i][n])
+    }
+}
 ```
 
 # Заключение
