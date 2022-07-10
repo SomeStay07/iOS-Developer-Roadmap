@@ -22,4 +22,4 @@ See [this article](https://medium.com/ios-os-x-development/ios-developer-roadmap
 
 # 👨‍🎓 Материалы:
 - [Статьи для освоения iOS знаний](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Articles.md)
-- [Материал для освоения алгоритмов](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/algorithms/algorithm.md)
+- [Материал для освоения алгоритмов](https://github.com/SomeStay07/iOS-Developer-Roadmap/tree/main/algorithms)
