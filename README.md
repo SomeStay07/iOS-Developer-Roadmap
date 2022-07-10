@@ -21,5 +21,5 @@ This is a tree-like compilation of topics highly relevant to iOS development. Bo
 See [this article](https://medium.com/ios-os-x-development/ios-developer-roadmap-c9a24f413457) explaining selection of topics.
 
 # 👨‍🎓 Материалы:
-- [Статьи](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Articles.md)
-- [Материал для освоения алгоритмов](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/books/algorithm.md)
+- [Статьи для освоения iOS знаний](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Articles.md)
+- [Материал для освоения алгоритмов](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/algorithms/algorithm.md)
