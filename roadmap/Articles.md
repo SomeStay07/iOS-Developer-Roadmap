@@ -8,6 +8,7 @@
    - 💚 junior | [Типы данных](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Data%20type.md)
    - 💚 junior | [ARC]()
    - 💛 junior+| [Copy on write](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Copy%20on%20write.md)
+   - 💛 junior+| [Типы ссылок, side table, счётчик ссылок](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Side%20table%20and%20object%20reletionship.md)
    - 🧡 middle | [Hashable](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Hashable.md)
    - 🧡 middle | [Autorelease pool]()
    - 🤎 middle+| [Shallow and deep copying](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Shallow%20and%20deep%20copying.md)
