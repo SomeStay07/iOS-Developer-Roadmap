@@ -4,7 +4,7 @@
    - 💚 junior | [Что такое optional, для чего он нужен и как его использовать](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Optional.md)
    - 💚 junior | [Optional Chaining](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Optional%20Chaining.md)
    - 💛 junior+| [AnyObject, Any и any](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/AnyObject%2C%20Any%20и%20any.md)
-   - 💛 junior+| [Диспетчеризация](https://github.com/SomeStay07/iOS-Developer-Roadmap/tree/main/roadmap)
+   - 💛 junior+| [Диспетчеризация](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Method%20dispatch.md)
 2. 📝 Управление памятью:
    - 💚 junior | [Типы данных](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Data%20type.md)
    - 💚 junior | [ARC]()
