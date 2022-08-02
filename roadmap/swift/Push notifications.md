@@ -21,3 +21,8 @@ Push-уведомление — это короткое сообщение, со
 > с текстом «Hello, world!» и будет воспроизведён стандартный звуковой сигнал.
 
 ![image](https://user-images.githubusercontent.com/47610132/182321644-1d6ed4b9-c1ee-40a0-af50-d1d646607573.png)
+
+# Полезное:
+- [Когда почта доставляет: боремся с потерями push-уведомлений в iOS / Ася Свириденко](https://www.youtube.com/watch?v=SVCMbPIuy8w&t=1471s)
+- [Тестирование push-уведомлений в мобильных приложениях](https://habr.com/ru/company/youla/blog/553762/)
+- [The Push Notifications primer](https://www.wwdcnotes.com/notes/wwdc20/10095/)
