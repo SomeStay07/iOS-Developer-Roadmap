@@ -7,6 +7,7 @@
    - 💛 junior+| [AnyObject, Any и any](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/AnyObject%2C%20Any%20и%20any.md)
    - 💛 junior+| [Диспетчеризация](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/Method%20dispatch.md)
    - 💛 junior+| [Анатомия пуш нотификаций](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/Push%20notifications.md)
+   - 🧡 middle | [Render loop](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/Render%20loop.md)
    - 🤎 middle+| [Устройство компилятора(Low level virtual machine)](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/Low%20level%20virtual%20machine.md)
 2. 📝 Управление памятью:
    - 💚 junior | [Типы данных](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/Data%20type.md)
