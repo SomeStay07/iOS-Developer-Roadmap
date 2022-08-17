@@ -18,6 +18,7 @@
    - 🤎 middle+| [Shallow and deep copying](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/Shallow%20and%20deep%20copying.md)
    - 🤎 middle+| [MRC]()
 3. 🦦 Многопоточность:
+   - 💛 junior+| [Введение в многопоточность](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/multithreading%20and%20concurrency/Multhithreading1.md)
    - 🧡 middle | [Run Loop](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/multithreading%20and%20concurrency/Run%20loops.md)
    - 🤎 middle+| [Акторы](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/multithreading%20and%20concurrency/Actors.md)
 4. 🌶 Структуры данных:
