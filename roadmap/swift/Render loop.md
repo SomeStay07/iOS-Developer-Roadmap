@@ -41,7 +41,7 @@ Render loop — это цикл отрисовки в системе iOS.
 - **Layout —** На этом этапе мы подготавливаем вьюхи, их свойства (frame, background color, border и другие)Как только лайаут расчитался, система вызывает метод setNeedsDisplay.
 - **Display —** обновляет CGContext. Это рисование может включать вызов функций drawRect, drawLayer каждых subviews
 - **Prepare —** На этом этапе Core Animation готовится отправить данные анимации на render server. Здесь происходит подготовка и декодинг картинок
-- **Commit —** Это заключительный этап, когда Core Animation упаковывает слои и свойства анимации и отправляет их через [Interprocess communication](https://medium.com/@ali.pourhadi/ipc-mach-message-cab64ff1b569) (IPC) на render server для отображения.
+- **Commit —** Это заключительный этап, когда Core Animation упаковывает слои и свойства анимации и отправляет их через [Interprocess communication](https://medium.com/@ali.pourhadi/ipc-mach-message-cab64ff1b569) (XPC или IPC) на render server для отображения.
 
 Core Animation объединяет изменения в транзакцию, кодирует их и фиксирует на render server.
 
