@@ -31,3 +31,4 @@
    - 💛 junior+| [Protocol Oriented Programming](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/design%20principles/Protocol%20Oriented%20Programming.md)
 6. 👾 Дополнительные материалы:
    - [Подсказки для работы с гитом](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/Git-cheat-sheet.md)
+   - [Cоветы для улучшения тестового задания](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/Test%20Review%20Tips.md)
