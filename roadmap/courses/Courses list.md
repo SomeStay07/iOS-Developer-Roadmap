@@ -10,5 +10,11 @@
 - `дополнительные знания`
 - [Cсылка](https://iosinterviewguide.com/system-design-interview)
 > Автор: - [Alex Bush](https://www.linkedin.com/in/alexvbush/)
+#
+Два замечательных видео, по system design на iOS. 
+- 🤎 middle+
+- `основные знания`
+- [Собеседование Senior iOS-разработчика](https://www.youtube.com/watch?v=CadPMJJsl0E)
+- [iOS System Design Instagram Example](https://www.youtube.com/watch?v=irUTptJWc9o)
 
 P.S. [`Pointfree`](https://www.pointfree.co) и (`Swift Talk`](https://talk.objc.io) будут добавлены позже ибо надо распарсить 200 и 300 воркшопов :) 
