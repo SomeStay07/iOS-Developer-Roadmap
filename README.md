@@ -15,4 +15,4 @@
 - [Книги для изучения iOS и общего программирования](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/books/Book%20list.md)
 - [Курсы для изучения iOS и общего программирования](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/courses/Courses%20list.md)
 - [Изучение алгоритмов](https://github.com/SomeStay07/iOS-Developer-Roadmap/tree/main/algorithms)
-- [Ресурсы для поиска работы]()
+- [Ресурсы для поиска работы](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/other/Job%20resources.md)
