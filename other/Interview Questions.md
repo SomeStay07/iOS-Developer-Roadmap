@@ -11,7 +11,10 @@
   - Как положить `reference` типы на стек?
   - Что такое `Экзистенциальный контейнер`?
   - Что такое `Inout аргумент`?
-  - [Вот здесь](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/Data%20type.md) можно про всё это почитать.
+  - [Вот здесь](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/Data%20type.md) можно про всё, что выше, почитать.
+  - Что такое [Copy on Write](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/Copy%20on%20write.md)?
+  - Что такое [`indirect enum`](https://stackoverflow.com/a/37533442)?
+  - Разница между [`== vs ===`](https://stackoverflow.com/a/50645846)?
 
 # ARC
 - Что такое [`ARC`](https://youtu.be/SnvZwVgoUrI?t=159)?
@@ -24,3 +27,14 @@
 - Что такое [`side table`](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/ARC/Side%20table%20and%20object%20reletionship.md#side-table)?
 - Как устроена и когда появляется [`side table`](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/ARC/Side%20table%20and%20object%20reletionship.md#как-устроена-side-table)?
 - Счетчик ссылок и жизненный цикл объекта, [ссылка](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/ARC/Side%20table%20and%20object%20reletionship.md#счетчик-ссылок)
+- Что такое [`autoreleasepool`](https://swiftrocks.com/autoreleasepool-in-swift)?
+- Почему не будет `retain cycle` для `UIView.animate`, `DispatchQueue.main` и т.д? [Ответ](https://stackoverflow.com/a/48420485)
+
+# Многопоточность
+- В чем разница sync и async?
+- [Потокобезопасность со static](https://stackoverflow.com/a/58038780)
+
+# Others
+- Что такое `generics` и для чего они нужны?
+- Отличие [`отличие static методов от class`](https://habr.com/ru/sandbox/146984/) функций.
+- Что такое [`responder chain`](https://habr.com/ru/post/464463/)?
