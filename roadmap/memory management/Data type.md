@@ -299,4 +299,4 @@ P.S. Это лишь вершина айсберга, с каждой новой
 - [Habr: Память в Swift от 0 до 1](https://habr.com/ru/company/hh/blog/546856/)
 - [Understanding Swift Performance](https://developer.apple.com/videos/play/wwdc2016/416/)
 - [WWDC: iOS Memory Deep Dive](https://developer.apple.com/videos/play/wwdc2018/416/)
-
+- [Как работает СТЕК?](https://www.youtube.com/watch?v=MXoMuymbfo8&t=393s)
