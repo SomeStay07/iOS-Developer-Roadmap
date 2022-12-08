@@ -1,6 +1,7 @@
 # Вопросы для разогрева.
-- Рассказать про принципы SOLID, YAGNI, KISS. [Вот можно посмотреть](https://www.youtube.com/watch?v=TxZwqVTaCmA) 
+- Рассказать про принципы SOLID, YAGNI, KISS. [Вот можно посмотреть](https://www.youtube.com/watch?v=TxZwqVTaCmA) так же [последняя глава](https://www.chitai-gorod.ru/catalog/book/830585/) в этой книги отлично раскрывает эти принципы
 - Рассказать про принципы [ООП](https://www.youtube.com/watch?v=-6DWwR_R4Xk): наследование, инкапсуляция, полиморфизм и абстракция.
+- В чем разница между композицией и наследованием? Хорошая статья для изучения [тут](https://habr.com/ru/post/325478/), тут [пример с кодом](https://www.avanderlee.com/swift/composition-inheritance-code-architecture/) и еще вот [тут](https://betterprogramming.pub/swift-favor-composition-over-inheritance-the-baseviewcontroller-case-f598064bda6)
 
 # Устройство памяти.
 - Рассказать про виды памяти.
