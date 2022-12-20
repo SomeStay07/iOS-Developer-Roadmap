@@ -30,7 +30,6 @@
 - Как устроена и когда появляется [`side table`](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/ARC/Side%20table%20and%20object%20reletionship.md#как-устроена-side-table)?
 - Счетчик ссылок и жизненный цикл объекта, [ссылка](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/ARC/Side%20table%20and%20object%20reletionship.md#счетчик-ссылок)
 - Что такое [`autoreleasepool`](https://swiftrocks.com/autoreleasepool-in-swift)?
-- Почему не будет `retain cycle` для `UIView.animate`, `DispatchQueue.main` и т.д? [Ответ](https://stackoverflow.com/a/48420485)
 
 # Многопоточность
 - В чем разница sync и async?
