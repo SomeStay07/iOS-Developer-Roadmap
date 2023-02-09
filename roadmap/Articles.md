@@ -5,6 +5,7 @@
    - 💚 junior | [Что такое optional, для чего он нужен и как его использовать](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/Optional.md)
    - 💚 junior | [Optional Chaining](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/Optional%20Chaining.md)
    - 💛 junior+| [AnyObject, Any и any](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/AnyObject%2C%20Any%20и%20any.md)
+   - 💛 junior+| [Delayed deallocation](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/Delayed%20deallocation.md)
    - 💛 junior+| [Диспетчеризация](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/Method%20dispatch.md)
    - 💛 junior+| [Анатомия пуш нотификаций](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/Push%20notifications.md)
    - 💛 junior+| [Auto Layout](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/Auto%20layout.md)
