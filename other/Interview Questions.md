@@ -1,8 +1,10 @@
-# Вопросы для разогрева.
+# Вопросы по общему программированию.
 - Рассказать про принципы SOLID, YAGNI, KISS. [Вот можно посмотреть](https://www.youtube.com/watch?v=TxZwqVTaCmA) так же [последняя глава](https://www.chitai-gorod.ru/catalog/book/830585/) в этой книги отлично раскрывает эти принципы.
 - Рассказать про принципы [ООП](https://www.youtube.com/watch?v=-6DWwR_R4Xk): наследование, инкапсуляция, полиморфизм и абстракция.
 - В чем разница между композицией и наследованием? Хорошая статья для изучения [тут](https://habr.com/ru/post/325478/), [пример с кодом тут](https://www.avanderlee.com/swift/composition-inheritance-code-architecture/) и еще вот [тут.](https://betterprogramming.pub/swift-favor-composition-over-inheritance-the-baseviewcontroller-case-f598064bda6)
 - Разница между `mock` и `stub` для тестирования, изучить можно [вот тут](https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub).
+- Проблемы ООП и зачем нам нужно POP, [почитать тут](https://habr.com/ru/post/473798/)
+- DI, IoC и DIP, спасибо Jonfir'u [за чтиво](https://jonfir.github.io/posts/ioc-ios/#ioc)
 
 # Устройство памяти.
 - Рассказать про виды памяти.
@@ -17,6 +19,7 @@
   - Что такое [Copy on Write](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/Copy%20on%20write.md)?
   - Что такое [`indirect enum`](https://stackoverflow.com/a/37533442)?
   - Разница между [`== vs ===`](https://stackoverflow.com/a/50645846)?
+  - Вопрос про отложенную деаллокацию, [вот почитать](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/memory%20management/Delayed%20deallocation.md)
 
 # ARC
 - Что такое [`ARC`](https://youtu.be/SnvZwVgoUrI?t=159)?
@@ -39,3 +42,4 @@
 - Что такое `generics` и для чего они нужны?
 - Отличие [`отличие static методов от class`](https://habr.com/ru/sandbox/146984/) функций.
 - Что такое [`responder chain`](https://habr.com/ru/post/464463/)?
+- Рассказать про [замыкания](https://github.com/SomeStay07/iOS-Developer-Roadmap/blob/main/roadmap/swift/Closures.md)
